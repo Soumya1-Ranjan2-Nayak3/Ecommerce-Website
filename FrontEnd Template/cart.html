@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bazaar</title>
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+    <!--Bootstrap 4.4.1-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Owl-carousel CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+
+    <!-- font awesome icons 5.13-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Header Start-->
+    <header id="header">
+        <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+            <p class="font-rale font-size-12 text-black-50 m-0">Online Shopping Site for Mobiles, Electronics,
+                Furniture, Grocery, Lifestyle, Books & More. Best Offers!</p>
+            <div class="font-rale font-size-14">
+                <a href="#" class="px-3 border-rigth border-left text-dark">Login</a>
+                <a href="#" class="px-3 border-rigth text-dark">Wishlist(0)</a>
+            </div>
+        </div>
+
+
+        <!--Top Nav Bar start-->
+        <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+            <a class="navbar-brand" href="#">My Bazaar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto font-rubik">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">On Sale <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Category <i class="fas fa-chevron-down"></i> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Community </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Feedback</a>
+                    </li>
+                </ul>
+                <form action="#" class="font-size-14 font-rale">
+                    <a href="#" class="py-2 rounded-pill color-primary-bg">
+                        <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="px-3 py-2 rounded-pill text-dark bg-light">0 </span>
+                    </a>
+                </form>
+            </div>
+        </nav>
+
+        <!--Top Nav Bar end-->
+
+    </header>
+    <!--Header end-->
+
+    <!--Main Content Start-->
+    <main id="main-site">
+
+        <!--Cart section start-->
+        <section id="cart" class="py-3">
+            <div class="container-fluid w-75">
+                <h5 class="font-baloo font-size-20">Shopping Cart</h5>
+
+                <!-- Total shopping cart items start -->
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <!-- cart item start-->
+                                <div class="row border-top py-3 mt-3">
+                                    <div class="col-sm-2">
+                                        <img src="../assets/products/mobiles/iphone.png" style="height: 120px;" alt="cart1" class="img-fluid">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <h5 class="font-baloo font-size-20">APPLE iPhone 14 (Blue, 128 GB) </h5>
+                                        
+                                        <!-- product rating start-->
+                                        <div class="d-flex">
+                                            <div class="rating text-warning font-size-12">
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                              </div>
+                                              <a href="#" class="px-2 font-rale font-size-14">10,538 Ratings & 461 Reviews</a>
+                                        </div>
+                                        <!--  product rating end-->
+
+                                        <!-- product quantity start-->
+                                            <div class="qty d-flex pt-2">
+                                                <div class="d-flex font-rale w-25">
+                                                    <button class="qty-up border bg-light" data-id="pro1"><i class="fas fa-angle-up"></i></button>
+                                                    <input type="text" data-id="pro1" class="qty_input border px-2 w-100 bg-light" disabled value="1" placeholder="1">
+                                                    <button data-id="pro1" class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
+                                                </div>
+                                                <button type="submit" class="btn font-baloo text-danger px-3 border-right">Delete</button>
+                                                <button type="submit" class="btn font-baloo text-danger">Save for Later</button>
+                                            </div>
+                                        <!-- !product quantity end -->
+
+                                    </div>
+
+                                    <div class="col-sm-2 text-right">
+                                        <div class="font-size-20 text-danger font-baloo">
+                                            ₹<span class="product_price">72499</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- cart item end-->
+                            <!-- cart item start-->
+                            <div class="row border-top py-3 mt-3">
+                                <div class="col-sm-2">
+                                    <img src="../assets/products/mobiles/infinix.png" style="height: 120px;" alt="cart2" class="img-fluid">
+                                </div>
+                                <div class="col-sm-8">
+                                    <h5 class="font-baloo font-size-20">Infinix HOT 20 Play (Fantasy Purple, 64 GB)</h5>
+                                    
+                                    <!-- product rating start-->
+                                    <div class="d-flex">
+                                        <div class="rating text-warning font-size-12">
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="far fa-star"></i></span>
+                                          </div>
+                                          <a href="#" class="px-2 font-rale font-size-14">4,753 Ratings & 264 Reviews</a>
+                                    </div>
+                                    <!--  product rating end-->
+
+                                    <!-- product quantity start -->
+                                    <div class="qty d-flex pt-2">
+                                        <div class="d-flex font-rale w-25">
+                                            <button class="qty-up border bg-light" ><i class="fas fa-angle-up"></i></button>
+                                            <input type="text" class="qty_input border px-2 w-100 bg-light" disabled value="1" placeholder="1">
+                                            <button class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
+                                        </div>
+                                        <button type="submit" class="btn font-baloo text-danger px-3 border-right">Delete</button>
+                                        <button type="submit" class="btn font-baloo text-danger">Save for Later</button>
+                                    </div>
+                                    <!-- product quantity end -->
+
+                                </div>
+
+                                <div class="col-sm-2 text-right">
+                                    <div class="font-size-20 text-danger font-baloo">
+                                        ₹<span class="product_price">8199</span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- cart item end-->
+                        </div>
+                        <!-- count section start-->
+                        <div class="col-sm-3">
+                            <div class="sub-total border text-center mt-2">
+                                <h6 class="font-size-12 font-rale text-success py-3"><i class="fas fa-check"></i> Your order is eligible for FREE Delivery.</h6>
+                                <div class="border-top py-4">
+                                    <h5 class="font-baloo font-size-20">Subtotal (2 item):&nbsp; <span class="text-danger">₹<span class="text-danger" id="deal-price">80698 .00</span> </span> </h5>
+                                    <button type="submit" class="btn btn-warning mt-3">Proceed to Buy</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- count section edn-->
+                    </div>
+                <!--  Total shopping cart items end  -->
+            </div>
+        </section>
+        <!--Cart section end-->
+
+        <!--Recently Viewed Start-->
+        <section id="top-sale">
+            <div class="container py-5">
+                <h4 class="font-rubik font-size-20">Recently Viewed</h4>
+                <hr>
+                <!--slider start-->
+                <div class="owl-carousel owl-theme">
+                    <div class="item py-2">
+                        <div class="product font-rale">
+                            <a href="#"><img src="../assets/products/Accessories/boat.png" alt="product1"
+                                             class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>boAt Bassheads 103 Black Wired Headset</h6>
+                                <div class="rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star-half-alt"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>₹449</span>
+                                </div>
+                                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2">
+                        <div class="product font-rale">
+                            <a href="#"><img src="../assets/products/mobiles/infinix.png" alt="product2"
+                                             class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Infinix HOT 20 Play (Fantasy Purple, 64 GB)</h6>
+                                <div class="rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star-half-alt"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>₹8199</span>
+                                </div>
+                                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2">
+                        <div class="product font-rale">
+                            <a href="#"><img src="../assets/products/watch/boat_watch.png" alt="product3"
+                                             class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>boAt Wave Infinity </h6>
+                                <div class="rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star-half-alt"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>₹1949</span>
+                                </div>
+                                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2">
+                        <div class="product font-rale">
+                            <a href="#"><img src="../assets/products/shoes/adidas.png" alt="product4"
+                                             class="img-fluid"></a>
+                            <div class="text-center">
+                                <h6>Mystere M Running Shoes For Men </h6>
+                                <div class="rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star-half-alt"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>₹2319</span>
+                                </div>
+                                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2">
+                        <div class="product font-rale">
+                            <a href="#"><img src="../assets/products/mobiles/iphone.png" alt="product5"
+                                             class="img-fluid"></a>
+
+                            <div class="text-center">
+                                <h6>APPLE iPhone 14 (Blue, 128 GB) </h6>
+                                <div class="rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>₹72499</span>
+                                </div>
+                                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2">
+                        <div class="product font-rale">
+                            <a href="#"><img src="../assets/products/Accessories/onneplus_earphone.png" alt="product6"
+                                             class="img-fluid"></a>
+
+                            <div class="text-center">
+                                <h6>OnePlus Bullets Wireless Z2 </h6>
+                                <div class="rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star-half-alt"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>₹1799</span>
+                                </div>
+                                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2">
+                        <div class="product font-rale">
+                            <a href="#"><img src="../assets/products/watch/iwatch.png" alt="product7"
+                                             class="img-fluid"></a>
+
+                            <div class="text-center">
+                                <h6>APPLE Watch SE </h6>
+                                <div class="rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star-half-alt"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>₹32900</span>
+                                </div>
+                                <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--slider end-->
+            </div>
+        </section>
+        <!--Recently Viewed end-->
+    </main>
+    <!--Main Content end-->
+
+    <!--Footer Start-->
+    <footer id="footer" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12">
+                    <h4 class="font-rubik font-size-20">ABOUT</h4>
+                    <ul class="font-size-14 font-rale text-white" style="list-style-type: none">
+                        <li><a href="#" class="text-white">Contact Us</a></li>
+                        <li><a href="#" class="text-white">About Us</a></li>
+                        <li><a href="#" class="text-white">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <h4 class="font-rubik font-size-20">HELP</h4>
+                    <ul class="font-size-14 font-rale text-white-20" style="list-style-type: none">
+                        <li><a href="#" class="text-white">Payments</a></li>
+                        <li><a href="#" class="text-white">Shipping</a></li>
+                        <li><a href="#" class="text-white">Cancellation & Return</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-12">
+                    <h4 class="font-rubik font-size-20">SOCIAL</h4>
+                    <ul class="font-size-14 font-rale text-white-20" style="list-style-type: none">
+                        <li><a href="#" class="text-white">Facebook</a></li>
+                        <li><a href="#" class="text-white">Twitter</a></li>
+                        <li><a href="#" class="text-white">Youtube</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-12" style="border-left:4px solid white ;height: 10px;">
+                    <h6>Keep Shopping</h6>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <!--Footer end-->
+
+    <!-- JavaScripts CDN -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel Js file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+
+    <!--  isotope plugin cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+        integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+
+    <!-- Custom Javascript -->
+    <script src="index.js"></script>
+</body>
+
+</html>
