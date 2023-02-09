@@ -71,7 +71,7 @@ In this project database have created 5 tables:
 
 *[ Note: The item_id must be same in allproduct, topoffer, fresharrival ]*
 
-I have made the item_id same for allproduct, topoffer, fresharrival table to interlink the items present in those 3 tables. Therefore i have dedicated items range to specific category of products:
+I have made the item_id same for allproduct, topoffer, fresharrival table to interlink the items present in those 3 tables. Therefore i have dedicated items_id range to specific category of products:
 
 | category | range | 
 | --- | --- |
