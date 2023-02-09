@@ -93,7 +93,7 @@ VScode: https://code.visualstudio.com
 ## Deployment
 
 
-Install the Xampp server and go to the directory where Xampp dependencies are present. Locate the htdoc directory and make a directory inside it. Put all the resources which is Downloaded from this repository. As shown below.
+1. Install the Xampp server and go to the directory where Xampp dependencies are present. Locate the htdoc directory and make a directory inside it. Put all the resources which is Downloaded from this repository. As shown below.
 
 
 
@@ -101,7 +101,7 @@ https://user-images.githubusercontent.com/124838230/217869553-0a8a3f07-d92d-4c6b
 
 
 
-Fireup  the Xampp and click on start for apache and MySQL server. Then click on the admin button present next to it. It will redirect you to phpadmin page in your respective browser. As shown below.
+2. Fireup  the Xampp and click on start for apache and MySQL server. Then click on the admin button present next to it. It will redirect you to phpadmin page in your respective browser. As shown below.
 
 
 
@@ -109,7 +109,7 @@ https://user-images.githubusercontent.com/124838230/217870321-288b6d11-3f58-4df0
 
 
 
-click on new  present on the left hand side, under the create database make a database name it as "mybazaar". Then click on create button. As shown below.
+3. click on new  present on the left hand side, under the create database make a database name it as "mybazaar". Then click on create button. As shown below.
 
 
 
@@ -117,7 +117,7 @@ https://user-images.githubusercontent.com/124838230/217870533-597a75c6-f2e1-4637
 
 
 
-Your database is now created it will be visible on left hand side of your browser, click on that. You will get a empty database. On the top navigation bar you will get a import button click on that. As shown below.
+4. Your database is now created it will be visible on left hand side of your browser, click on that. You will get a empty database. On the top navigation bar you will get a import button click on that. As shown below.
 
 
 
@@ -125,7 +125,7 @@ https://user-images.githubusercontent.com/124838230/217870742-c724a6b6-06d3-42c5
 
 
 
-Click on choose file button and add the mybazaar_layout.sql file which is there in the database directory in the repository, which we have copied in htdoc directory. As shown below.
+5. Click on choose file button and add the mybazaar_layout.sql file which is there in the database directory in the repository, which we have copied in htdoc directory. As shown below.
 
 
 
@@ -133,14 +133,14 @@ https://user-images.githubusercontent.com/124838230/217871010-d3b3f92f-c332-459b
 
 
 
-Then scroll down you will find a import button click on import button. As shown below.
+6. Then scroll down you will find a import button click on import button. As shown below.
 
 
 
 https://user-images.githubusercontent.com/124838230/217871051-74077650-c747-4a1c-a508-ae5d8e9d7c83.mp4
 
 
-Then in the respective browser type **localhost/Ecommerce-Website-master/index.php**. As shown below
+7. Then in the respective browser type **localhost/Ecommerce-Website-master/index.php**. As shown below
 
 
 
