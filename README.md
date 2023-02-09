@@ -153,5 +153,5 @@ Wala!! All Set to go.
 
 ## Support
 
-For support, email work.soumya001@gmail.com or join our Slack channel.
+For support, email work.soumya001@gmail.com.
 
