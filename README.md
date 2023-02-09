@@ -6,28 +6,28 @@ It is a webite where a user can purchase products. Having functionalities like L
 
 ## Screenshots
 
-Landing Page:
+1. Landing Page:
 
 ![Screenshot (6)](https://user-images.githubusercontent.com/124838230/217867938-131c833c-3c71-4bce-866c-3cf862ee4a82.png)
 
-Item Filter:
+2. Item Filter:
 
 ![Screenshot (7)](https://user-images.githubusercontent.com/124838230/217868343-8fe007af-f6da-4413-936b-c1ea47a79266.png)
 
-Product Description Page:
+3. Product Description Page:
 
 ![Screenshot (11)](https://user-images.githubusercontent.com/124838230/217868475-e0ffba81-7c88-4157-a705-e0ff16f8fd75.png)
 
-Cart Page:
+4. Cart Page:
 
 ![Screenshot (8)](https://user-images.githubusercontent.com/124838230/217868649-37ef223a-4dba-4e54-828c-da892bd40a12.png)
 
-Login Page:
+5. Login Page:
 
 ![Screenshot (9)](https://user-images.githubusercontent.com/124838230/217868916-8dd23de2-c176-4f3c-b56d-4df7af4a6378.png)
 
 
-Register Page:
+6. Register Page:
 
 ![Screenshot (10)](https://user-images.githubusercontent.com/124838230/217868972-af947586-844a-44dd-8184-355ae590ed91.png)
 
@@ -48,11 +48,11 @@ Register Page:
 
 ## Demonstration Video
 
-Frontend part of the project:
+- Frontend part of the project:
 
 https://user-images.githubusercontent.com/124838230/217877318-57b5aeb6-034f-4ce8-953c-47327668ce8a.mp4
 
-Backend part of the project:
+- Backend part of the project:
 
 https://user-images.githubusercontent.com/124838230/217879376-cf74a195-6188-4a9d-b743-b1f8bb5c30d5.mp4
 
