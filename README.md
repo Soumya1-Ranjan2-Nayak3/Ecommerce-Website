@@ -10,7 +10,7 @@ Landing Page:
 
 ![Screenshot (6)](https://user-images.githubusercontent.com/124838230/217867938-131c833c-3c71-4bce-866c-3cf862ee4a82.png)
 
-Filter Page:
+Item Filter:
 
 ![Screenshot (7)](https://user-images.githubusercontent.com/124838230/217868343-8fe007af-f6da-4413-936b-c1ea47a79266.png)
 
